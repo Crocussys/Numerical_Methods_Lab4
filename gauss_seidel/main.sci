@@ -105,7 +105,6 @@ while 1 do
         break
     end
     j = modulo(i, len) + 1
-    mprintf("%d\n", j)
     x_prev = x
     x(j) = b(j)
     for k = 1:len do
